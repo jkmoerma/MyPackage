@@ -1,0 +1,26 @@
+---
+title: "General overview of my package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{General overview of my package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MyPackage)
+```
+This is a general overview of my package. The functions were written by lecturers of John Hopkins University. It was a exercise to document them and build an R package with them.
+
+The functions are written in order to process information around traffic incidents in the USA. It provides:
+
+* functions to support reading data in the offered format
+* a function to report incident numbers
+* a function to visualize spacial distribution of traffic incidents
