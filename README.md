@@ -3,7 +3,6 @@ title: "README"
 output: html_document
 ---
 
-[![R-CMD-check](https://github.com/jkmoerma/MyPackage/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jkmoerma/MyPackage/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/jkmoerma/MyPackage/graph/badge.svg)](https://app.codecov.io/gh/jkmoerma/MyPackage)
 
 This package was built as the final assignment in the course "Building R packages" of Coursera. 
