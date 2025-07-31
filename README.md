@@ -1,3 +1,4 @@
+
 ---
 title: "README"
 output: html_document
@@ -11,3 +12,4 @@ The functions included were built by the instructors of the course to give the s
 The developed R-code is therefore not written by me. 
 What was done by my hand was the documentation, the development of the R package and adding a CI check.
 The tokens for this check can be found in the description.
+
