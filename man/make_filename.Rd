@@ -4,10 +4,12 @@
 \alias{make_filename}
 \title{Make a file name.}
 \usage{
-make_filename(year)
+make_filename(year, path = ".")
 }
 \arguments{
 \item{year}{A numeric or character representing the year included in the filename}
+
+\item{path}{An optional character indicating the directory the files can be found. Defaults to ".", denoting the current working directory.}
 }
 \value{
 A character string representing the file name of an available file

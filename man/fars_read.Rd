@@ -20,8 +20,8 @@ If the filename is not found, the function will raise an error: file '\if{html}{
 }
 \examples{
 setwd("C:/Users/jef_m/Downloads/data")
-fars_read(filename="accident_2013.csv")
-fars_read(filename="accident_2014.csv")
-fars_read(filename="accident_2019.csv")
+fars_read(filename="accident_2013.csv.bz2")
+fars_read(filename="accident_2014.csv.bz2")
+fars_read(filename="accident_2019.csv.bz2")
 
 }

@@ -4,10 +4,12 @@
 \alias{fars_summarize_years}
 \title{Count the number of observations by month and by year.}
 \usage{
-fars_summarize_years(years)
+fars_summarize_years(years, path = ".")
 }
 \arguments{
 \item{years}{A numeric or character vector (atomic or list) representing the years from which data must be read.}
+
+\item{path}{An optional character indicating the directory the files can be found. Defaults to ".", denoting the current working directory.}
 }
 \value{
 A tibble with observation counts. Colunmns are "MONTH" and the specified years for which there is data available.

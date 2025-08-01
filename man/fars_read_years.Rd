@@ -4,10 +4,12 @@
 \alias{fars_read_years}
 \title{Make multiple file names.}
 \usage{
-fars_read_years(years)
+fars_read_years(years, path = ".")
 }
 \arguments{
 \item{years}{A numeric or character vector (atomic or list) representing the years from which data must be read.}
+
+\item{path}{An optional character indicating the directory the files can be found. Defaults to ".", denoting the current working directory.}
 }
 \value{
 A list of filenames.
