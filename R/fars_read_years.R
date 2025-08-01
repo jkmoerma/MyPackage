@@ -3,6 +3,7 @@
 #' This function takes a vector of years and returns a list of tibbles representing the data for the specified year.
 #'
 #' @param years A numeric or character vector (atomic or list) representing the years from which data must be read.
+#' @param path An optional character indicating the directory the files can be found. Defaults to ".", denoting the current working directory.
 #'
 #' @return A list of filenames.
 #'
@@ -18,9 +19,9 @@
 #'
 #' @export
 #'
-fars_read_years <- function(years) {
+fars_read_years <- function(years, path=".") {
   lapply(years, function(year) {
-    file <- make_filename(year)
+    file <- make_filename(year, path=path)
     tryCatch({
       dat <- fars_read(file)
       dplyr::mutate(dat, year = year) %>%

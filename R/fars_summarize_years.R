@@ -18,10 +18,10 @@
 #'
 #' @export
 #'
-fars_summarize_years <- function(years) {
-  dat_list <- fars_read_years(years)
+fars_summarize_years <- function(years, path = ".") {
+  dat_list <- fars_read_years(years, path=path)
   dplyr::bind_rows(dat_list) %>%
     dplyr::group_by(year, MONTH) %>%
-    dplyr::summarize(n = n()) %>%
+    dplyr::summarize(n = dplyr::n()) %>%
     tidyr::spread(year, n)
 }
