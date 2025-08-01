@@ -13,9 +13,9 @@
 #'
 #' @examples
 #' setwd("C:/Users/jef_m/Downloads/data")
-#' fars_read(filename="accident_2013.csv")
-#' fars_read(filename="accident_2014.csv")
-#' fars_read(filename="accident_2019.csv")
+#' fars_read(filename="accident_2013.csv.bz2")
+#' fars_read(filename="accident_2014.csv.bz2")
+#' fars_read(filename="accident_2019.csv.bz2")
 #'
 #' @export
 #'

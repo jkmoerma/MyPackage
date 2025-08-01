@@ -9,5 +9,5 @@ This package was built as the final assignment in the course "Building R package
 The functions included were built by the instructors of the course to give the students a start. 
 The developed R-code is therefore not written by me. 
 What was done by my hand was the documentation, the development of the R package and adding a CI check.
-The tokens for this check can be found at the top of this README.md file.
+The token for this check can be found at the top of this README.md file.
 
